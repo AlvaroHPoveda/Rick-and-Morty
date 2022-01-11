@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.list {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 25rem);
+  justify-content: center;
+}
+
+.Card {
+  text-align: left;
+  width: 22rem;
+  min-height: 8rem;
+  margin: 1rem;
+  box-shadow: 2px 1px 4px rgb(85, 84, 84);
+  border-radius: 0.5rem;
+  background-color: #282c34;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+  width: 10rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.Cardzero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+  
+}
+
+.input{
+  color: white;
+  width: 50%;
+  height: 2.5rem;
+  background-color: #444546;
+  box-shadow: 2px 1px 4px rgb(85, 84, 84);
+  margin: 1rem;
+}
+
+button{
+  width: 5%;
+  height: 2.5rem;
+}
+
+h1, h2{
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+  text-align: left;
+  margin-left: 20rem;
+}
+
+.gif{
+  width: 100%;
+  height: 17rem;
+  background-image: url("https://i.gifer.com/Z4aV.gif");
+  background-size: cover;
+  background-position-y: -18rem;
+  margin-bottom: 1rem;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
