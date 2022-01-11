@@ -73,8 +73,8 @@ h1, h2{
 }
 
 h2{
-  text-align: left;
-  margin-left: 60rem;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .gif{
